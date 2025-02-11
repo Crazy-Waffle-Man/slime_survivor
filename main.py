@@ -13,6 +13,7 @@ from attacks import attack
 #Defining variables
 WIDTH = 1000
 HEIGHT = 700
+TITLE = "Slime Survivor"
 world = SpriteActor(Sprite("map.png",702,702,0,1,1,(255,255,255)), (WIDTH//2, HEIGHT//2))
 player_idle = Sprite("hero_of_ashes.png",28,26,0,4)
 player_walk = Sprite("hero_of_ashes.png",28,26,1,4)
